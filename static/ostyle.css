@@ -1,0 +1,142 @@
+*{
+    margin:0rem;
+    padding:0rem;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+nav::before{ 
+content: "";
+position: absolute;
+background: url('https://images.pexels.com/photos/1907227/pexels-photo-1907227.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat center center/cover;
+height: 103rem;
+top:0rem;
+left:0rem;
+width: 100%;
+z-index: -1;
+opacity: 0.42;
+}
+
+nav div img{
+width: 4rem;
+height: 3.5rem;
+margin-top: -1.59rem;
+}
+
+nav ul {
+display: flex;
+flex-direction: row;
+}
+
+nav ul li{
+list-style: none; 
+}
+nav ul li a{
+text-decoration: none;
+padding:1rem  1.5rem;
+font-size:1.3rem;
+font-weight: 600;
+color:white;
+}
+nav ul li a:hover{
+    color: rgb(212, 94, 177);
+}
+
+#popular{
+    text-align: center;
+    font-size: xxx-large;
+    color: #d48c20;
+    text-shadow: -3px 1px green, 3px 3px red;
+}
+.section1 p{
+  
+        color: #5d2a2a;
+        text-align: centre;
+        text-align: center;
+        font-size: larger;
+        font-weight: 600;
+}
+  
+.section1 img {
+    height: 13rem;
+    width: 13rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+    background-color: #c2e6e6;
+   
+}
+
+.section1 div{
+
+    border:.1rem solid black;
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+    background-color: #bddede;
+}
+.section1{
+   display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#contact-h2{
+    text-align: center;
+    margin-top: 2rem;
+    }
+.section4{
+    /* border:.1rem solid rgb(185, 188, 216); */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+.section4 input{
+    margin: .3rem;
+    width: 18rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    height: 1.4rem;
+    cursor: pointer;
+    
+    }
+    #area:hover,.section4 input:hover{
+       
+         background-color: rgb(212, 238, 218);
+    }
+    #name{
+    margin-left: 1.6rem;
+    }
+    #email{
+    margin-left: 0.5rem;
+    }
+    #area{
+    margin-left: 5rem;
+    margin-top: -0.4rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    width:18rem;
+    cursor: pointer;
+ }
+
+    .section4 button a {
+        text-decoration: none;
+        color: #046ba7;
+        font-weight: 700;
+    }
+    
+    .section4 button:hover{
+        color: rgb(126, 10, 91);
+         background-color: rgb(146, 226, 166);
+    }
+    
+    .section4 button {
+        width: 5rem;
+        padding: .1rem .1rem;
+        font-size: small;
+        cursor: pointer;
+        margin-left: 12rem;
+    }

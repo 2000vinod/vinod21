@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Using plain html in Pug</title> -->
+    <title>Home</title> 
+    
+    <link rel="stylesheet" href="../static/style.css"> 
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="../static/phone.css">
+</head>
+<body>
+    <!-- nav -->
+    <nav>
+
+        <div>
+            <img src="https://cdn.pixabay.com/photo/2016/06/29/20/04/food-1487663_960_720.png " alt="not available">
+        </div>
+        <ul>
+
+            <li><a href="/">Home</a> </li>
+            <li><a href="/service">Service</a> </li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a> </li>
+        </ul>
+    </nav>
+    <!-- section1 -->
+    <section class="section1">
+        <h1>welcome to My food Service</h1>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates exercitationem sed, magni odit modi, saepe sapiente corrupti dolores, sunt voluptas cupiditate quia voluptatibus aliquam quod aut rerum omnis repellendus placeat! Inventore, nemo? Corporis, molestiae!</p>
+        </div>
+        <button>
+            <a href="/order">order now</a>
+        </button>
+    
+    </section>
+    <!-- section2 -->
+    <h1 id="service-h1">Our Service</h1>
+    <section class="section2">
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1574126154517-d1e0d89ef734?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60 " alt="not available">
+            <h3 class="section2-h3">Food Catering</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolorem ipsa labore reiciendis magni cum iste nisi autem maxime tempore repellendus similique, dignissimos, iure vitae dicta sit suscipit totam dolores neque incidunt voluptatem corrupti!</p>
+               
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1539755530862-00f623c00f52?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzh8fHBsYXRlJTIwb2YlMjBmb29kfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 " alt="not available">
+            <h3 class="section2-h3">Bulk Ordering</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum libero et consequatur perspiciatis velit quis natus dolore ea. Sapiente ducimus nihil animi dignissimos qui illum accusamus vel sunt sed. Nemo nisi ullam adipisci?</p>
+        </div>
+        <div>
+            <img src="https://images.unsplash.com/photo-1598769398698-bab7f1b4cadd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8ZGVsaXZlcnklMjBtYW58ZW58MHx8MHw%3D&auto=format&fit=crop&w=500&q=60 " alt="not available">
+            <h3 class="section2-h3">Food ordering</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam tenetur dignissimos ut et consequuntur quos culpa nihil excepturi cupiditate, quam, debitis, ea nesciunt. Repellat facilis quas quae! Eveniet a dolorum nihil, culpa impedit similique.</p>
+        </div>
+
+    </section>
+    <!-- section3 -->
+    <h1 id="client-h1">Our Clients</h1>
+    <section class="section3">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNRKOBgPZV5aVjZn83gyDjR4j1bnMXVzD8Mg&usqp=CAU" alt="not available">
+            </div>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS58LEOycmAJdcIKaTboCWAkQsqqPjqwY4i-g&usqp=CAU" alt="not available">
+    </div>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ06Qq11XwCLfwmF5olufR-fmdf7RWEDA_rg&usqp=CAU" alt="not available">
+    </div>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAMuIefj8W5b8nCfzT1PTZ783xcJj3b2iBHQ&usqp=CAU" alt="not available">
+    </div>
+    
+    </section>
+
+    <h2 id="contact-h2">Contact us</h2>
+
+    <section class="section4">
+        <form method="POST" action="/kumar">
+            <div>
+                <label for="name">Name : </label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="email">Email Id :</label>
+                <input type="email" name="id" id="email" placeholder="Enter your email id">
+            </div>
+            <div>
+                <label for="phone">Phone No:</label>
+                <input type="phone" name="phone" id="phone" placeholder="Enter your phone no">
+            </div>
+            <div>
+                <!-- <label for="message">message:</label> -->
+                <div>
+                    <label for="message">message:</label>
+            
+                </div>
+                <textarea name="message" id="area" cols="38" rows="8" placeholder="Message us here"></textarea>
+            </div>
+            <div>
+                <button>
+                    | submit
+                </button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>
+            Copyright &copy; www.myOnlineMeal.com. All rights reserved!
+        </p>
+        <p>Owner:V.C</p>
+    </footer>
+
+
+</body>
+
+</html>

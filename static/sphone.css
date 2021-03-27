@@ -1,0 +1,96 @@
+nav{
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+nav::before {
+    height: 84rem;
+}
+    
+nav ul {
+   flex-direction: column;
+ }
+
+
+ .section4 label{
+    margin-left: 4.4rem;
+  }
+  
+  .section4 input {
+    width: 9rem;
+  }
+  .section4 div{
+   display:flex;
+   flex-direction: column;
+  }
+  #name {
+   margin-left: 4.6rem;
+  }
+  #email {
+   margin-left: 4.5rem;
+  }
+  #phone{
+   margin-left: 4.5rem;
+  }
+  
+  #area{
+   margin-top: 0.4rem;
+   width:8.4rem;
+  }
+  .section3{
+       display:flex;
+        flex-direction: column;
+  }
+  .section3::before {
+     height: 73rem;
+     top: 139rem;
+  }
+  
+/* contact css */
+
+.section1 .order {
+   font-size:large;
+}
+.section1 {
+    background-color: #e6fde6;
+    width: 100%vw;
+    display: flex;
+    justify-content: center;
+    height: 12rem;
+    margin: 0rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.section1 a {
+    margin: 0rem;
+}
+
+.section1 p {
+    font-size: large;
+    line-height: 1.7rem;
+    color:black;
+    font-weight: 400;
+}
+.section1 div p{
+    display:flex;
+    flex-direction: column;
+}
+  
+  .section2{
+    flex-direction: column;
+  }
+
+
+.section2 div {
+    border: .2rem solid #1195e2;
+    background-color: #e22929;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+    height: 15rem;
+    box-shadow: 3px 5px green, 4px 6px red;
+    /* width: 20rem; */
+}
+

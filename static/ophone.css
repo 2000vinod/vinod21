@@ -1,0 +1,127 @@
+
+
+nav{
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+nav ul {
+   flex-direction: column;
+ }
+/* phone css */
+nav ul li a {
+   text-decoration: none;
+   padding: 1rem 1.5rem;
+   font-size: 1.0rem;
+   font-weight: 300;
+}
+#popular {
+   text-align: center;
+   font-size: large;
+   text-shadow: -1px 1px green, 1px 2px red;
+   margin-top: 0rem;
+}
+.section1 div {
+   /* display: flex; */
+   border: .1rem solid black;
+   border-radius: 1rem;
+   margin: 0.2rem 0.2rem;
+   background-color: #bddede;
+   width: 5rem;
+    height: 7.2rem;
+}
+.section1 img {
+   height: 5rem;
+   width: 5rem;
+   border-radius: 1rem 1rem 0rem 0rem;
+   background-color: #c2e6e6;
+}
+
+
+
+.section1 div p {
+    line-height: 0.7rem;
+    font-size: xx-small;
+}
+.section1 p {
+    color: #5d2a2a;
+   text-align: center;
+   font-weight: 300;
+  
+}
+
+
+.section4 label {
+   margin-left: 4.4rem;
+   font-size: small;
+}
+ .section4 input {
+   width: 9rem;
+   margin: .1rem;
+ }
+ .section4 div{
+  display:flex;
+  flex-direction: column;
+ }
+ #name {
+  margin-left: 4.6rem;
+  height: 1.0rem;
+ }
+ #email {
+  margin-left: 4.5rem;
+  height: 1.0rem;
+ }
+ #phone{
+  margin-left: 4.5rem;
+  height: 1.0rem;
+ }
+ 
+ #area{
+  margin-top: 0.4rem;
+  width: 8.5rem;
+  height: 5rem;
+}
+ 
+ #contact-h2 {
+   margin-left: 4rem;
+   font-size: large;
+}
+.section4 button {
+   width: 4rem;
+   padding: .1rem .1rem;
+   margin-left: 7.5rem;
+   margin-top: .3rem;
+}
+nav::before {
+   height:123rem;
+}
+   @media only screen and (min-width: 280px) and (max-width:360px) {
+      nav::before {
+          height:86rem;
+      }
+  }  
+  @media only screen and (min-width: 360px) and (max-width:450px) {
+   nav::before {
+       height:70rem;
+   }
+} 
+  @media only screen and (min-width: 451px) and (max-width:888px) {
+   nav::before {
+       height:61rem;
+   }
+}  
+@media only screen and (min-width: 888px) and (max-width:888px) {
+   nav::before {
+       height:71rem;
+   }
+}  
+@media only screen and (min-width: 888px) and (max-width:950px) {
+   nav::before {
+       height:53rem;
+   }
+}  
+@media only screen and (min-width: 951px) and (max-width:980px) {
+   nav::before {
+       height:53rem;
+   }
+}  
